@@ -8,6 +8,9 @@ target 'daradara' do
   # Pods for daradara
 
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore’
+
   
   target 'daradaraTests' do
     inherit! :search_paths

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		73D3710A250F534300DFDA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D37108250F534300DFDA76 /* LaunchScreen.storyboard */; };
 		73D37115250F534300DFDA76 /* daradaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D37114250F534300DFDA76 /* daradaraTests.swift */; };
 		73D37120250F534400DFDA76 /* daradaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3711F250F534400DFDA76 /* daradaraUITests.swift */; };
+		73D3712E250F560A00DFDA76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73D3712D250F560A00DFDA76 /* GoogleService-Info.plist */; };
 		7A950D777C2CA55BC515B79D /* Pods_daradaraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647691CCDFE4D0E3EC2ED873 /* Pods_daradaraTests.framework */; };
 		C346B70850755535955E4F76 /* Pods_daradara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0F4897D869EF3FC001E404 /* Pods_daradara.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		73D3711B250F534400DFDA76 /* daradaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daradaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3711F250F534400DFDA76 /* daradaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daradaraUITests.swift; sourceTree = "<group>"; };
 		73D37121250F534400DFDA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D3712D250F560A00DFDA76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78DCEC90608279C12B7111E2 /* Pods-daradara-daradaraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daradara-daradaraUITests.release.xcconfig"; path = "Target Support Files/Pods-daradara-daradaraUITests/Pods-daradara-daradaraUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BBB17290155802B08378FF88 /* Pods-daradara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daradara.debug.xcconfig"; path = "Target Support Files/Pods-daradara/Pods-daradara.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD49A6FA0AF5F9F4F9FC1A2 /* Pods-daradaraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daradaraTests.release.xcconfig"; path = "Target Support Files/Pods-daradaraTests/Pods-daradaraTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				73D370FF250F533B00DFDA76 /* SceneDelegate.swift */,
 				73D37101250F533B00DFDA76 /* ViewController.swift */,
 				73D37103250F533B00DFDA76 /* Main.storyboard */,
+				73D3712D250F560A00DFDA76 /* GoogleService-Info.plist */,
 				73D37106250F534300DFDA76 /* Assets.xcassets */,
 				73D37108250F534300DFDA76 /* LaunchScreen.storyboard */,
 				73D3710B250F534300DFDA76 /* Info.plist */,
@@ -165,7 +168,6 @@
 				0A73F59AF8C42A42D2A5FDA0 /* Pods-daradaraTests.debug.xcconfig */,
 				FBD49A6FA0AF5F9F4F9FC1A2 /* Pods-daradaraTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D3710A250F534300DFDA76 /* LaunchScreen.storyboard in Resources */,
+				73D3712E250F560A00DFDA76 /* GoogleService-Info.plist in Resources */,
 				73D37107250F534300DFDA76 /* Assets.xcassets in Resources */,
 				73D37105250F533B00DFDA76 /* Main.storyboard in Resources */,
 			);
