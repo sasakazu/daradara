@@ -8,7 +8,7 @@ target 'daradara' do
   # Pods for daradara
 
   pod 'Firebase'
-  pod 'Firebase/Auth'
+  pod 'FirebaseAuth'
   pod 'Firebase/Firestore’
 
   
